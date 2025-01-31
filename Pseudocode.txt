@@ -1,0 +1,31 @@
+Gebe Begrüßung aus
+Pausiere
+Frag nach der Art des Kunden (Privat oder Geschäftlich)
+Warte auf Eingabe
+
+Wenn Privatkunde oder Geschäftskunde oder Verlassen eingegeben wird, wird der Code weitergeführt, wenn nicht mache folgendes:
+    Gebe aus, dass die Eingabe ungültig ist und frage erneut nach der Art des Kunden
+    Warte auf Eingabe
+
+Wenn Privatkunde eingegeben wird
+    Gebe "Vielen Dank!" aus
+    Rufe die Funktion bot() auf
+Wenn Geschäftskunde eingegeben wird
+    Gebe "Vielen Dank für deine Eingabe!" aus
+    Pausiere
+    Gebe "Du hast als Geschäftskunde einen persönlichen Ansprechpartner." aus
+    Gebe "Natürlich kannst du auch den Chatbot verwenden." aus
+    Frage ob der Geschäftskunde den Chatbot dennoch verwenden möchte und warte auf Eingabe
+
+        Wenn Ja oder Nein oder Verlassen eingegeben wird, wird der Code weitergeführt, wenn nicht mache folgendes:
+            Gebe aus, dass die Eingabe ungültig ist und frage erneut nach
+            Warte auf Eingabe
+
+        Wenn Ja eingegeben wird
+            Gebe "Vielen Dank!" aus
+            Rufe die Funktion bot() auf
+        Sonst
+            Gebe "Vielen Dank für die Nutzung unseres Chats!" aus
+
+Sonst
+    Gebe "Vielen Dank für die Nutzung unseres Chats!" aus
