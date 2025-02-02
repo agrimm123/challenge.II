@@ -1,11 +1,30 @@
-# Challenge II Chatbot
 
-Manual für Umgang mit Kunden
-SLA zum Absichern der vertraglich zugesicherten Rechte und Pflichten
+# Chatbot Challenge II 
 
-HTML Seite um den Chatbot für Kunden zugänglich zu machen.
+Supportchatbot für BUGLAND, um Kunden eine dauerhaft erreichbare Supportlösung zu bieten
 
-Pseudocode ist zum einen in der Textdatei, aber auch direkt vor dem dann umgesetzen Code in der Chatbot.py Datei
-!! API KEY ist in einer extra Config gespeichert und wurde nicht mit Hochgeladen, der Chatbot funktioniert also nicht richtig !!
 
-BPMN-Datei kann durch upload auf dieser website geöffnet werden: https://bpmn.io/
+
+
+## Ziel 1
+
+Manual - How to deal with Customers\
+Anleitung für Mitarbeiter bei Bugland, damit diese einige Grundlagen für den Umgang mit Kunden lernen.
+## Ziel 2
+
+Service Level Agreement 
+
+Klassifizierung von Kunden, in Geschäftskunden und Privatkunden\
+Was dürfen Kunden an Leistungen erwarten\
+Was für Möglichkeiten bekommt ein Geschäftskunde Geld zurück zu fordern, wenn die vertraglich vereinbarten Leistungen  nicht stimmen
+
+## Ziel 3
+
+Der eigentliche Chatbot
+
+!! Der Chatbot funktioniert nicht, da der API KEY fehlt (Sicherheitsrisiko den hier hochzuladen) !!
+
+Der Chatbot soll sich auf einer Webseite befinden und dort von den Kunden verwendet werden können.\
+Das Use Case Diagramm veranschaulicht die Funktionsweise und die Abhängigkeiten des Chatbots.\
+Der Pseudocode bietet die erste Grundlage eines Teiles des Codes.
+
